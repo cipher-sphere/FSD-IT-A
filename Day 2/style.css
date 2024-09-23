@@ -1,0 +1,84 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Table cell padding */
+td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* Input fields and textarea */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Radio button layout */
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+/* Styling for radio button groups */
+td:nth-child(1) {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+/* Button styling */
+button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        padding: 10px;
+    }
+
+    td {
+        display: block;
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    td:nth-child(1) {
+        text-align: left;
+    }
+}
