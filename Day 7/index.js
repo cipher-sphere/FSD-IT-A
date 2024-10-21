@@ -24,3 +24,14 @@ console.log(s);
 console.log(sumscores);
 console.log(scores);
 
+console.log("start");
+setTimeout(() => {
+  console.log("first task complete");
+  setTimeout(() => {
+    console.log("second task complete");
+    setTimeout(() => {
+      console.log("third task complete");
+    }, 3000);
+  }, 2000);
+}, 1000);
+console.log("end");
