@@ -1,0 +1,83 @@
+/* App.css */
+
+/* General Styles */
+body {
+    font-family: 'San Francisco', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark base for neon elements */
+    color: #e5e5e7; /* Soft gray text for readability */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #ff00ff; /* Neon magenta for vibrancy */
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; /* Neon glow effect */
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a; /* Sleek dark gray header */
+    padding: 15px 0;
+    text-align: center;
+    color: #0affef; /* Neon cyan for text */
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle Apple-like shadow */
+    text-shadow: 0 0 5px #0affef, 0 0 10px #0affef; /* Neon glow */
+}
+
+/* Container for MovieList */
+.movie-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark gray for contrast */
+    border-radius: 10px; /* Rounded corners for elegance */
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.3); /* Subtle neon magenta glow */
+    border: 1px solid #ff00ff; /* Neon magenta accent */
+}
+
+/* Buttons */
+button {
+    background-color: #0071e3; /* Apple's signature blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    text-shadow: 0 0 5px #0affef, 0 0 10px #0affef; /* Neon cyan glow */
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: #ff00ff; /* Neon magenta on hover */
+    color: #000000; /* Contrast text on hover */
+    box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff; /* Enhanced glow */
+}
+
+/* Subtle Animations for Neon Effects */
+.movie-container:hover {
+    box-shadow: 0 0 20px #0affef, 0 0 40px #ff00ff; /* Dynamic glow on hover */
+    transform: scale(1.02); /* Slight zoom for interactivity */
+    transition: all 0.3s ease;
+}
+
+/* Minimalist Typography */
+p {
+    color: #e5e5e7; /* Light gray for softer text */
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #0affef; /* Neon cyan links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #ff00ff; /* Neon magenta on hover */
+}
