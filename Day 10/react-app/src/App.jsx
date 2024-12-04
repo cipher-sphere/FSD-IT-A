@@ -1,5 +1,11 @@
-const App=()=>{
-  return <div>app</div>
-};
+import React from 'react'
 
-export default App;
+const App = () => {
+  return (
+    <div>
+      <h1>Netflix Clone App</h1>
+    </div>
+  )
+}
+
+export default main
